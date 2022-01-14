@@ -18,6 +18,7 @@ View : 中間層，負責 Model 和 Template 之間的業務邏輯。
 開啟一個django project  
 
 >django-admin startproject middle
+
 然後在終端執行  
 ```
 python manage.py runserver
