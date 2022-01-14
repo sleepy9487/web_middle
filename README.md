@@ -23,15 +23,15 @@ View : 中間層，負責 Model 和 Template 之間的業務邏輯。
 python manage.py runserver
 ```
 就可以看到執行成功的畫面了  
-![image]()  
+![image](https://github.com/sleepy9487/web_middle/blob/master/images/1.JPG)  
 
 ## 建立app(功能)
 之後我們要創建app(功能)  
 終端輸入  
 >python manage.py startapp food
-
+![image](https://github.com/sleepy9487/web_middle/blob/master/images/2.JPG)  
 請在 settings.py 裡面的 **INSTALLED_APPS** 加入 food (新建立的 App 名稱)  
-![image]()  
+![image](https://github.com/sleepy9487/web_middle/blob/master/images/3.JPG)  
   
 ## views&templates  
 在 templates 裡面新增一個  **hello.html**  
@@ -48,7 +48,7 @@ python manage.py runserver
 </body>
 </html>
 ```  
-![image]()  
+![image](https://github.com/sleepy9487/web_middle/blob/master/images/4.JPG)  
 html裡的test就是要與views連動回傳的值  
 
 ###views  
@@ -65,16 +65,16 @@ def hello_view(request):
 
 ```  
 >回傳test>Hello this is a test
-![image]()
+![image](https://github.com/sleepy9487/web_middle/blob/master/images/5.JPG)
 ### urls  
 最後我們要增添url  
 將views與template的連動可以呈現出來  
-![image]()  
+![image](https://github.com/sleepy9487/web_middle/blob/master/images/6.JPG)  
 >hello_views的函數
 
 最後終端輸入python manage.py server後  
 在原網址後添加/hello 就可以看到新增的網頁了~
-![image]()
+![image](https://github.com/sleepy9487/web_middle/blob/master/images/7.JPG)
 
 
 
