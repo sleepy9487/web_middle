@@ -12,9 +12,11 @@ View : 中間層，負責 Model 和 Template 之間的業務邏輯。
 
 先下載好python  
 安裝django  
->pip install django  
+>pip install django
+
 開啟一個django project  
->django-admin startproject middle  
+
+>django-admin startproject middle
 然後在終端執行  
 ```
 python manage.py runserver
